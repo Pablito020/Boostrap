@@ -14,9 +14,10 @@ $coloresPrincipales:(
 $estilos:(
 	color:whitesmoke,
 	centro:center,
-	tFuente:15px,
+	tFuente:20px,
 	paddingTop:10px,
-	tFuente2:30px
+	tFuente2:15px,
+	end:end
 );
 
 div .h2{
@@ -29,4 +30,9 @@ div .p{
 	color:map-get($coloresPrincipales,colorBlack);
 	text-align:map-get($estilos,centro);
 	font-size:map-get($estilos,tFuente2);
-} 
+}
+
+li .a{
+	color:map-get($coloresPrincipales, colorWhite);
+	text-align:map-get($estilos,end);
+}
