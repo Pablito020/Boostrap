@@ -1,10 +1,9 @@
-@mixin colorYbackground($color,$background,$fSize,$fFamily){
+@mixin colorYbackground($color,$fSize,$fFamily){
 	color:$color;
-	background-color:$background;
 	font-size:$fSize;
 	font-family:$fFamily;
 }
 
 h1{
-	@include colorYbackground(black,white,50px,cursive,);
+	@include colorYbackground(black,50px,cursive,);
 }

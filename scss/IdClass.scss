@@ -6,11 +6,17 @@
   justify-content: end;
   text-align: center;
   font-family: Georgia;
+  font-size: 20px;
 }
 
 .mtb-30px{
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.mtb-10{
+  margin-bottom:10px;
+  margin-top:10px;
 }
 
 .tabla td{
@@ -21,4 +27,19 @@
 }
 .mb-30{
   margin-bottom: 30px;
+}
+.mt-10{
+  margin-top: -10px;
+}
+
+.letra h3{
+  color: white;
+}
+
+.letra label{
+  color:white;
+}
+
+@media only screen and (max-width: 768px){
+  header, footer{ max-width: 768px;}
 }
