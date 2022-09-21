@@ -112,6 +112,11 @@ h1 {
 .letra label {
   color: white; }
 
+.btn-primary {
+  background-color: #055160;
+  border-color: black;
+  border-width: 1px; }
+
 @media only screen and (max-width: 768px) {
   header, footer {
     max-width: 768px; } }
