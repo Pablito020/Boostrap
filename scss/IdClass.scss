@@ -8,11 +8,24 @@
   overflow-x: hidden;
 }
 
+.table-responsive{
+  overflow-x: hidden;
+}
+
 .navtxt a{
   justify-content: end;
   text-align: center;
   font-family: Georgia;
   font-size: 20px;
+}
+
+.mt{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mb{
+  margin-bottom: 5px;
 }
 
 .mtb-30px{
@@ -52,6 +65,9 @@
   border-width: 1px;
 }
 
-@media only screen and (max-width: 768px){
-  header, footer{ max-width: 768px;}
+.tablita{
+  color: black;
+  margin-left: 20px;
+  margin-top: -15px;
+  overflow-x: hidden;
 }
